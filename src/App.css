@@ -1,0 +1,101 @@
+:root {
+  --mainBG: #193779;
+  --elementBlue: rgb(7, 0, 68);
+  --darkBlock: #14213d;
+  --lightBlock: #173470;
+  --main-accent: #fca311;
+  --silver: #e5e5e5;
+  --red: #e84855;
+}
+
+.App {
+  text-align: center;
+  background-color: var(--mainBG);
+}
+
+.chartBlock {
+  margin: 0 auto;
+  width: 90%;
+}
+.prob {
+  width: 90%;
+  margin: 0 auto;
+  background: linear-gradient(0deg, var(--mainBG) 0%, var(--darkBlock) 92%);
+  border-radius: 8px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.26);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.26);
+}
+.probTitle h2 {
+  color: var(--silver);
+  padding: 40px 0 0 0;
+  font-size: 40px;
+}
+.probInput {
+  display: flex;
+  justify-content: center;
+}
+.numberInput {
+  color: white;
+}
+.input {
+  width: 40px;
+  height: 40px;
+  margin: 0 20px;
+  background-color: var(--lightBlock);
+  border-radius: 50%;
+  text-align: center;
+  color: var(--silver);
+  font-size: 24px;
+}
+.inputElem {
+  /* display: flex; */
+}
+.headerWrapper {
+  height: 70vh;
+  width: 100%;
+}
+.calsProbWrapper {
+  margin-bottom: 100px;
+}
+.btn {
+  cursor: pointer;
+  background-color: var(--main-accent);
+  color: white;
+  display: inline-block;
+  padding: 5px 20px;
+  margin: 30px 0;
+}
+.prediction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.prediction h1 {
+  font-size: 60px;
+  margin: 50px 50px;
+  color: var(--red);
+}
+.prediction p {
+  color: var(--silver);
+}
+.totalAnalWrapper {
+  width: 90%;
+  margin: 0 auto;
+  background: linear-gradient(0deg, var(--mainBG) 0%, var(--darkBlock) 92%);
+  border-radius: 8px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.26);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.26);
+}
+.totalAnalTitle h3 {
+  color: var(--silver);
+  padding: 40px 0 0 0;
+  font-size: 40px;
+}
+.footerWrapper {
+  height: 100px;
+}
+.pieChart {
+  margin-top: 100px;
+}
