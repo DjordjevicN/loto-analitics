@@ -117,7 +117,7 @@ const calc=(num,totalEntries)=>{
         
         
         <div className='pieChart'>
-          {chartData.length>=0? <Pie data={charInfo}/>:null}
+          {chartData.length>0? <Pie data={charInfo}/>:null}
           {/* <Pie data={charInfo}/> */}
        </div>
       
