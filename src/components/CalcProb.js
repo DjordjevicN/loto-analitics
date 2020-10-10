@@ -54,7 +54,7 @@ const calc=(num,totalEntries)=>{
      <div className='prob'>
        <div className="probTitle">
          <h2>Izracunaj verovatnocu</h2>
-         <p></p>
+     
        </div>
        <div className="probInput">
        <div className="numberInput">
@@ -117,8 +117,8 @@ const calc=(num,totalEntries)=>{
         
         
         <div className='pieChart'>
-          {/* {chartData.length>=0? <Pie data={charInfo}/>:null} */}
-          <Pie data={charInfo}/>
+          {chartData.length>=0? <Pie data={charInfo}/>:null}
+          {/* <Pie data={charInfo}/> */}
        </div>
       
        {chartData.length<=0?  <div className="btn" onClick={()=>{

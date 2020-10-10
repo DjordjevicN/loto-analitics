@@ -75,7 +75,7 @@ function DisplayInformation({state}) {
 useEffect(() => {
     chartInfo();
     chart();
-},);
+});
   return (
     <div className='totalAnalWrapper'>
       <div className="totalAnalTitle">
