@@ -75,18 +75,14 @@ function DisplayInformation({state}) {
 useEffect(() => {
     chartInfo();
     chart();
-} );
+},);
   return (
     <div className='totalAnalWrapper'>
       <div className="totalAnalTitle">
         <h3>Sortirani Brojevi po kolima</h3>
       </div>
       <div className="chartBlock"> 
-      
       <Bar data={chartData}/>
-     
-
-      
       </div>
     </div>
   );

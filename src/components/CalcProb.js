@@ -115,17 +115,24 @@ const calc=(num,totalEntries)=>{
              </div>
         </div>
         
-        <div className='pieChart'>
-          {chartData.length>0? <Pie data={charInfo}/>:null}
         
+        <div className='pieChart'>
+          {/* {chartData.length>=0? <Pie data={charInfo}/>:null} */}
+          <Pie data={charInfo}/>
        </div>
+      
        {chartData.length<=0?  <div className="btn" onClick={()=>{
          calculate()
         }} >Analiziraj</div>:null}
-       
+       <div className="btn" onClick={()=>{
+       window.location.reload(true);
+        }}>Restart</div>
        <div className="prediction">
          <p>Verovatnoca Dobitka</p>
-      <h1>{`${Math.floor(searchedTotal)}%`}</h1>
+         {
+          isNaN(searchedTotal)? <h1>{`$0%`}</h1>: <h1>{`${Math.floor(searchedTotal)}%`}</h1>
+         }
+      {/* <h1>{`${Math.floor(searchedTotal)}%`}</h1> */}
        </div>
      </div>
     </div>

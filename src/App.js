@@ -55,8 +55,8 @@ return item.lotoNum.map((num)=>populateState(num))
   return (
     <div className="App">
       <Header/>
-      <CalcProb data={state} total={data.length}/>
       <DisplayInformation state={state}/> 
+      <CalcProb data={state} total={data.length}/>
       <Footer/>
     </div>
   );
