@@ -45,7 +45,8 @@ const calculate = ()=>{
   }
 }
 const calc=(num,totalEntries)=>{
-    let percentage = ((num*100)/totalEntries)
+    // let percentage = ((num*100)/totalEntries)
+    let percentage = ((num/totalEntries)*100)
     totalPercentageNum.push(percentage)
   }
   return (
