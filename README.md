@@ -1,5 +1,5 @@
 
-![(https://raw.githubusercontent.com/DjordjevicN/loto-analitics/master/loto.jpg)]
+![](https://raw.githubusercontent.com/DjordjevicN/loto-analitics/master/loto.jpg)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
